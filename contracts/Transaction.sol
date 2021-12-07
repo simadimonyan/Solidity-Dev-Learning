@@ -13,7 +13,7 @@ contract eventslogging {
         require(owner == msg.sender);
         _;
     }
-
+ 
     modifier validValue() {
         assert(msg.value >= 1 ether);
         _;
