@@ -1,0 +1,140 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_self",
+						"type": "uint256"
+					}
+				],
+				"name": "testDecrement",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_self",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "testDecrementByValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_self",
+						"type": "uint256"
+					}
+				],
+				"name": "testIncrement",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_self",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "testIncrementByValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Imports.sol": "Math"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"/library/customlib.sol": {
+			"keccak256": "0x5dca8d66c933133e0ca9a14ae57ba5784a7b0ea90e6f083b1f7e19efd7932b82",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6ffdaf4d5cba2df11df54719818a88ff851786a35fe7a6f8b28c19f54de658f2",
+				"dweb:/ipfs/QmdXRNSYM5SwVmVnqgKNi6dsN6U5aBegEt3mqzFmE41x8A"
+			]
+		},
+		"contracts/Imports.sol": {
+			"keccak256": "0x1dee629b2e5211d956d80068cc7306427047218e3f8babf5be66bc6b7c99ff9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0cf64a741c49ac558669992fff09e35b1202457bf6b8aaa7725d8c0fbae0ba6c",
+				"dweb:/ipfs/QmaZrtLcw7hXdnjLjjXkd5dd5tYZwYrS84cgiFgP5hrf7b"
+			]
+		}
+	},
+	"version": 1
+}
