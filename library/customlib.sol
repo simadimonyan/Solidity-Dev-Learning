@@ -7,7 +7,7 @@ library math {
     function increment(uint _self) pure internal returns(uint) {
         return _self+1;
     }
-
+ 
     function decrement(uint _self) pure internal returns(uint) {
         return _self-1;
     }

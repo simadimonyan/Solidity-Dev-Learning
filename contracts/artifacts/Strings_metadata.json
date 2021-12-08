@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"library/customlib.sol": "math"
+			"contracts/Strings.sol": "Strings"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"library/customlib.sol": {
-			"keccak256": "0x08cce5adf621276009c44cfa7fae4defe689cf0e02d4fdaebc5829569ca31e2f",
+		"contracts/Strings.sol": {
+			"keccak256": "0xedd7d53716f355de004c504268b1094c53f6619d145192a56232c117bfa5e541",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://34d93417b1904ac9c3edbaf1ed9bbba44989fa8fd51f553a36bb21ee90288ead",
-				"dweb:/ipfs/QmTj836TfP3JPN3inwPyHnw5PsNka8hRtk7VJ5kfceWaSG"
+				"bzz-raw://570b187b4c09cf2adeb995256a93654f8f789bd87f65435ca03eb38a89b80191",
+				"dweb:/ipfs/QmcjDQr5AuYpYanBb9ErGvDiXbBfmz41tPwdtRoNnLAsW7"
 			]
 		}
 	},
