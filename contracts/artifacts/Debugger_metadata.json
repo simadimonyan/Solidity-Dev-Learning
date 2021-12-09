@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "assignment",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "memoryAlloc",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "storageAlloc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Debugging.sol": "Debugger"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Debugging.sol": {
+			"keccak256": "0xc73b790119f34381ccd995c5806bec4c13e05662de941119239fc21be05ff98d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://80c58570d4e701aee6f83633075e3e0a277f9097878640adcfb42d863985e815",
+				"dweb:/ipfs/QmZrdYWxhoGKSHJpALSF4bnnxbJMz9MP2tt69YUTKtu3Kd"
+			]
+		}
+	},
+	"version": 1
+}
