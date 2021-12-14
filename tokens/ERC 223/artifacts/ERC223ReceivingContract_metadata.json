@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "tokenFallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tokens/ERC 223/ERC223RecievingContract.sol": "ERC223ReceivingContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tokens/ERC 223/ERC223RecievingContract.sol": {
+			"keccak256": "0x5fff0fa6d5ca35ff039e371a068552d8f8b2560f1c49198597475ed15dbfdcde",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1cc9926370bdb284b425c031c1ab230f82adcb034183abf16200c446253b7a7c",
+				"dweb:/ipfs/QmNXs8ZmK1yV5j8JMsRYtgMk7sLY1NwCP14ZUpLWTJ6GoL"
+			]
+		}
+	},
+	"version": 1
+}

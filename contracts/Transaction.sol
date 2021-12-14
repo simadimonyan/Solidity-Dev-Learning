@@ -9,6 +9,10 @@ contract eventslogging {
 
     address private owner;
 
+    constructor() {
+        owner = msg.sender;
+    }
+
     modifier isOwner() {
         require(owner == msg.sender);
         _;
@@ -17,10 +21,6 @@ contract eventslogging {
     modifier validValue() {
         assert(msg.value >= 1 ether);
         _;
-    }
-
-    constructor() {
-        owner = msg.sender;
     }
 
     function recieve() external payable isOwner validValue {

@@ -51,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Inheritance.sol": "Regulator"
+			"contracts/Custom Modifiers.sol": "Regulator"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -65,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Inheritance.sol": {
-			"keccak256": "0x2fdc8d9bf8805d8303f09cbc9a92e9771e962f934ce181bbda1f4f239efd5037",
+		"contracts/Custom Modifiers.sol": {
+			"keccak256": "0x5a3eadef06e7d6d2f577b46201e37a27ab5d0394e71e9cb4089661c6d205b22b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://73c8e09c63c0caf7d807da0bfaf1cb89b63462b21b15dc0edeab0702181d8802",
-				"dweb:/ipfs/QmNUmuuBAm8pCWoU6tFykb3KLgAXwcoFgEygMZ9fwmRVGJ"
+				"bzz-raw://0a7fc3b3f791a7dfaf4fcb13509d4f58cf612f00eb88c38d56977168e658690f",
+				"dweb:/ipfs/QmNu2E14SYzhTfUe2Q8EVPnN4uk1bzyr12ZxYn3iCTHCN1"
 			]
 		}
 	},

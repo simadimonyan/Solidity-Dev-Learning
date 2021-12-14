@@ -8,8 +8,23 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_symbol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_decimals",
+						"type": "uint8"
+					},
+					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_totalSupply",
 						"type": "uint256"
 					}
 				],
@@ -18,73 +33,54 @@
 			},
 			{
 				"inputs": [],
-				"name": "balance",
+				"name": "decimals",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint8",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "checkValue",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "deposit",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "loan",
+				"name": "name",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "string",
 						"name": "",
-						"type": "bool"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -101,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Custom Modifiers.sol": "Bank"
+			"tokens/ERC 223/Token.sol": "Token"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -115,12 +111,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Custom Modifiers.sol": {
-			"keccak256": "0x5a3eadef06e7d6d2f577b46201e37a27ab5d0394e71e9cb4089661c6d205b22b",
+		"tokens/ERC 223/Token.sol": {
+			"keccak256": "0x3d55db0aa00c8a714f769652210318bbf0e73a1f879682cc1a1848b6277d8550",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0a7fc3b3f791a7dfaf4fcb13509d4f58cf612f00eb88c38d56977168e658690f",
-				"dweb:/ipfs/QmNu2E14SYzhTfUe2Q8EVPnN4uk1bzyr12ZxYn3iCTHCN1"
+				"bzz-raw://1be3ebd2e040e9869c3f1caa015744fb146e224b736dcd8e6d7b854c9e8abb60",
+				"dweb:/ipfs/QmYwadXpB1xSBV72S8vjbpeY78r3k7ZkF9z4RgqtSBQzwe"
 			]
 		}
 	},
