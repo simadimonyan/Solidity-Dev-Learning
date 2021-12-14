@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EtherTransfer.sol": "EtherTransferTo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EtherTransfer.sol": {
+			"keccak256": "0xa15c526665fcbd5c8d67ae966daa3698fd5c33102eea42eb8aa2f711fe6f4138",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2bb7a35490b00c29dc5297fb275392ad22a4e6fcdfc4a9c49bceb078a83eb286",
+				"dweb:/ipfs/QmWVsN9W2qReyQEjciCZ152FRiWXPUf37bQ5qYE8d92eji"
+			]
+		}
+	},
+	"version": 1
+}
