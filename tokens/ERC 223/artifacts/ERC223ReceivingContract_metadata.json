@@ -42,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tokens/ERC 223/ERC223RecievingContract.sol": "ERC223ReceivingContract"
+			"tokens/ERC 223/ERC223ReceivingContract.sol": "ERC223ReceivingContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -56,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tokens/ERC 223/ERC223RecievingContract.sol": {
-			"keccak256": "0x5fff0fa6d5ca35ff039e371a068552d8f8b2560f1c49198597475ed15dbfdcde",
+		"tokens/ERC 223/ERC223ReceivingContract.sol": {
+			"keccak256": "0x899e39ea7d95b25e795cea26a2ee9377c2715b93dbab177279ce2a05059576d3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1cc9926370bdb284b425c031c1ab230f82adcb034183abf16200c446253b7a7c",
-				"dweb:/ipfs/QmNXs8ZmK1yV5j8JMsRYtgMk7sLY1NwCP14ZUpLWTJ6GoL"
+				"bzz-raw://f1d97b97a9bf6b80a4e5f9fcdab7a32e23c13c025d052ab53712892d0a85bf75",
+				"dweb:/ipfs/QmZNi77oQZXPmWC2ZMyuRmXXhLkim31zpkbU8wF7tT6Vmr"
 			]
 		}
 	},

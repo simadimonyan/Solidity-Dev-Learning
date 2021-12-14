@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "asmAddition",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_v",
+						"type": "uint256"
+					}
+				],
+				"name": "asmConditional",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_r",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "asmLoops",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_r",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_v",
+						"type": "uint256"
+					}
+				],
+				"name": "nativeConditional",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nativeLoops",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_r",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assembly/Assembly.sol": "Assembly"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assembly/Assembly.sol": {
+			"keccak256": "0x150c4f04763fe9e2edf5f90befde7afcdd7622dfdc6e85c112dcd723e350dc69",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://028f97cbb5594b0c4cd6b3747de2aa5947c4d96a72956435209c3230a2faa84d",
+				"dweb:/ipfs/QmRcLbrCkZgSt72jdhisXyyCWMMbwncfFYw4KKniEBYXvx"
+			]
+		}
+	},
+	"version": 1
+}
