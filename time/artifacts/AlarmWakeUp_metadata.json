@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "callback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"time/Alarm Trigger.sol": "AlarmWakeUp"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"time/Alarm Trigger.sol": {
+			"keccak256": "0xa72038a935b3dc0e7cd70c37f2154f9f0dfa4e0e736e057f3e3d29933fc3e99f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1f007e2a776380f925acaa3a3e9f6e84a082a229f67db9da21a39adc49837df9",
+				"dweb:/ipfs/QmUAwJXVYVWufWM5kenLiQM8X8oFZgj11SpAT7wDmur4Am"
+			]
+		}
+	},
+	"version": 1
+}
