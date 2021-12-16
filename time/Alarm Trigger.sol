@@ -11,7 +11,7 @@ contract AlarmService {
     struct TimeEvent {
         address addr;
         bytes data;
-    }
+    } 
     
     mapping(uint => TimeEvent[]) private _events;
     

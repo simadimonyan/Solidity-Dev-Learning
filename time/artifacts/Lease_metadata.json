@@ -109,7 +109,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"time/Time Based.sol": "TimeBased"
+			"time/Lease.sol": "Lease"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -123,12 +123,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"time/Time Based.sol": {
-			"keccak256": "0xd4a4ba571867350f587f90daf2ae084df50701eec9d5897d04f04e448e331554",
+		"time/Lease.sol": {
+			"keccak256": "0x28b3dffe3908dd1eed8b941f12f47928e0810c063204cf606833af3b91627c27",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://742eb9b38cb0a5b84c6bb031f4ae3fef33826db6bad88477ed6398926f6e2f3b",
-				"dweb:/ipfs/QmWmLdaBqpER89wEU8uwwau91VyZ5pqvwQatRcquaJ8kYr"
+				"bzz-raw://97a510dc64815f77a5ce74cb2ad9d421d95db3fcb0c8ec25c40251634574f847",
+				"dweb:/ipfs/Qmdb2XA2yaFRcekDoAy5YieuB58mvmMX2XJBam519PDrTs"
 			]
 		}
 	},

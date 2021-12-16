@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.10;
 
-contract TimeBased {
+contract Lease {
 
     mapping (address => uint) _balanceOf;
     mapping (address => uint) _expiryOf;
@@ -24,7 +24,7 @@ contract TimeBased {
         }
         _;
     }
-
+ 
     function lease() public payable expire(msg.sender) returns (bool) {
         require(msg.value == 1 ether);
         require(_balanceOf[msg.sender] == 0);
