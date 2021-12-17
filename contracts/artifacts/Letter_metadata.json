@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "n",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Polymorphism.sol": "Letter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Polymorphism.sol": {
+			"keccak256": "0xfad8ad2a408644fc128a1e6ac0881bc99e241594aa499f216913781e17b7ea4e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://00da5146a15bc59f2b06fcf2fd2911cf8deb31e58bbba6a2605a651ce515ffa9",
+				"dweb:/ipfs/Qma3qdxbCoT7miUqibHk2Nn3mcn5hw4CvTaGi6kqrpFbfj"
+			]
+		}
+	},
+	"version": 1
+}
